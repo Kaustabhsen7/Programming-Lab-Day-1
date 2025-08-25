@@ -1,5 +1,5 @@
 //date-25/08/25
-//write a cprogram to print last digit of a number a)using %operator b)without using %operator
+//write a c program to print last digit of a number a)using %operator b)without using %operator
 #include<stdio.h>
 int main() {
 	int num,l1,l2;
