@@ -21,10 +21,9 @@ int main() {
 	}
 	else {
 		printf("roots are complex \n");
-		r1=(-b/2*a)+(sqrt(-d)/(2*a));
-		r2=(-b/2*a)-(sqrt(-d)/(2*a));
+		r1=(-b/(2*a))+(sqrt(-d)/(2*a));
+		r2=(-b/(2*a))-(sqrt(-d)/(2*a));
 		printf("roots are %f,%f \n",r1,r2);
-		
 	}
-	
+	return 0;
 }
