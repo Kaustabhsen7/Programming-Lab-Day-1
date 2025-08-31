@@ -6,7 +6,7 @@
 int main() {
 	float num1,num2,f1,c1,f2,c2;
 	printf("enter a positive number :");
-	scanf("%f",&num);
+	scanf("%f",&num1);
 	f1=floor(num1);
 	c1=ceil(num1);
   printf("enter a negative number :");
