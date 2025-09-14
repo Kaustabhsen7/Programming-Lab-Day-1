@@ -2,14 +2,14 @@
 
 int main() {
     float a, b, res;
-    char operator;
+    char o;
     printf("Enter first number: ");
     scanf("%f", &a);
     printf("Enter an operator (+, -, *, /): ");
-    scanf(" %c", &operator);  
+    scanf(" %c", &o);  
     printf("Enter second number: ");
     scanf("%f", &b);
-    switch (operator) {
+    switch (o) {
         case ('+'):
             res = a + b;
             printf("Result: %f\n", res);
